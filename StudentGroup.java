@@ -71,6 +71,16 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudent(Student student, int index) {
 		// Add your implementation here
+		in=index;
+		for(i=1;i<=al.length();i++)
+		{
+			if(student==null&&in<=0;&&in>index)
+				length().throw new IllegalArgumentException
+			else if(pos==in)
+				al.append(element,pos);
+			else if(index==pos)
+				System.out.println("%d",index);
+		}
 	}
 
 	@Override
