@@ -44,7 +44,7 @@ public class StudentGroup implements StudentArrayOperation {
 		// Add your implementation here
 		int index;
 		if(index==null)
-			length().throw new IllegalArgumentException("Please specify the index");
+			throw new IllegalArgumentException("Please specify the index");
 		else
 		{
 			for(i=0;i<=index;i++)
@@ -59,7 +59,7 @@ public class StudentGroup implements StudentArrayOperation {
 		for(i=0;i<=al.length();i++)
 		{
 			if(student==null&&in<=0&&in>index)
-				length().throw new IllegalArgumentException("");
+				throw new IllegalArgumentException("");
 			else if(position==in)
 				al.append(element);
 			else if(index==in)
@@ -75,7 +75,7 @@ public class StudentGroup implements StudentArrayOperation {
 		for(i=1;i<=al.length();i++)
 		{
 			if(student==null&&in<=0;&&in>index)
-				length().throw new IllegalArgumentException
+				throw new IllegalArgumentException
 			else if(pos==in)
 				al.append(element,pos);
 			else if(index==pos)
